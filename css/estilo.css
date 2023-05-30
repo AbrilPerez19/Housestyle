@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a,
+a:active {
+    text-decoration: none;
+    color: #050505;
+    font-size: large;
+}
+
+/*----INICIO DE HAEDER----*/
+.df-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(119, 194, 169, 0.847);
+    flex-direction: row;
+    padding: 15px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo p {
+    margin: 10px;
+
+}
+
+.df-ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.df-ul li {
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+
+}
+
+#house {
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 200%;
+    
+}
+
+.barra-ofertas{
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 3px solid black;
+   
+}
+
+.categoria-h1{
+   display: flex;
+   justify-content: center;
+   margin-left: 30%;
+   font-size: 150%;
+   font-family: 'Roboto Condensed', sans-serif;
+   margin-bottom: 5%;
+   margin-top: 1%;
+}
+
+.categorias-img{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+   margin-left: 30%;
+   margin-right: 2%;
+   float: 6%;
+}
